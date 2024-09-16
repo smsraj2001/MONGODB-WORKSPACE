@@ -1,0 +1,73 @@
+MongoDB:
+--------
+    It is a database
+
+Some Databases:
+----------------
+- Mysql ----> SQL (Relational) ---> Tables will have some kind of relationships.
+- Oracle ----> SQL (Relational)
+
+- MongoDB -----> NoSQL  ----> documents ---> (documents can be nested)
+
+======================================================================================================
+
+Structured Database:
+--------------------
+- SQL (Relational) (We see fixed number of columns and column type is fixed)
+    id  name    dob   age    contact
+    1   John    1990  30    1234567890
+    2   Rahul   2022  24    9876554677
+
+    - column type is fixed for each column, Date means only date should enter.
+    - number of columns are fixed for the table.
+
+Semi Structured database:
+-------------------------
+- MongoDB is semi structured and has NO REALTIONSHIP.
+- It stores as document. (JSON document). Key-Value pair
+    {
+        id: 1,
+        name: Sachin,
+        age: 20
+    },
+    {
+        id: 2,
+        name: rahul,
+        age: 30,
+        dept: hr
+    }
+
+MongoDB Commands and uses:
+--------------------------
+- show dbs:  shows all the databases
+- show collections:  shows all the collections in the database
+- use database_name:  selects the database
+- db is a built-in  object in MongoDB that represents the current database
+- db.createCollection("vehicle"):   creates a collection
+- db.vehicle.insertOne({name: "jupiter", price: 30000}); : This will  insert a document into the vehicle collection in the current database.
+- show collections:   shows all the collections in the current database
+- db.vehicle.find();:   This will show all the documents in the vehicle collection in the current database.
+- db.vehicle.find().pretty();:    This will show all the documents in the vehicle collection in the current database in pretty format.
+- db.vehicle.insertMany([{name: "TVS X", price: 67000}, {name: "apache y", price: 89000}]); : This will  insert multiple documents into the vehicle collection in the current database.
+- db.employee.find( { age: { $gt: 22 } }, { name: 2 }). limit(5);
+    The  above command will find all the documents in the employee collection in the current database where age is greater than 22 and  show only the name field and limit the result to 5 documents.
+- db.employee.find( {}, { name: 10 }). limit(5);  : This will find all the documents in the employee collection in the current database and show only the name. If {} is not given then no output will be displayed
+- db.employee.find(
+... { age: {$gt: 22 } },
+... { name: 1, age: 0}
+... ).limit(5);
+    The above command will throw error as inclusion and exclusion is not  allowed in the same query. 
+    But `_id` field can have inclusion  and exclusion in the same query. 
+- db.vehicle.drop: This command will  delete the vehicle collection in the current database.
+- $and :  This operator is used to match all conditions specified within the $and operator. 
+- $or :  This operator is used to match any of the conditions specified within the $or
+- $not :  This operator is used to exclude the conditions specified within the $not operator.
+- $in :  This operator is used to match any value in the specified array.
+- $nin :  This operator is used to exclude any value in the specified array.
+- $exists :  This operator is used to match values that exist in the specified field.
+- $type :  This operator is used to match values that are of the specified type.
+
+
+mongoimport --db tvs --collection restaurants --file "/home/zadmin/Desktop/mongo-workspace/restaurants.json"
+
+
