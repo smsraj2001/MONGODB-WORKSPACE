@@ -1,0 +1,7 @@
+1. {}
+2. {stock: { $gt: 100}}
+3. {year: {$eq: 2023}}
+4. {price: { $lt: 80000}}
+5. {"dealer.name": {$eq: "TVS Dealer A"}}
+6. {type: {$eq: "electric scooter"}} ****
+7. 

@@ -1,0 +1,362 @@
+[
+  {
+    "vehicle_id": 1,
+    "model": "Apache RTR 160",
+    "type": "motorcycle",
+    "year": 2022,
+    "price": 110000,
+    "stock": 50,
+    "dealer": {
+      "name": "TVS Dealer A",
+      "location": "Chennai"
+    }
+  },
+  {
+    "vehicle_id": 2,
+    "model": "Apache RTR 200",
+    "type": "motorcycle",
+    "year": 2023,
+    "price": 130000,
+    "stock": 40,
+    "dealer": {
+      "name": "TVS Dealer B",
+      "location": "Bangalore"
+    }
+  },
+  {
+    "vehicle_id": 3,
+    "model": "TVS Jupiter",
+    "type": "scooter",
+    "year": 2021,
+    "price": 75000,
+    "stock": 100,
+    "dealer": {
+      "name": "TVS Dealer C",
+      "location": "Mumbai"
+    }
+  },
+  {
+    "vehicle_id": 4,
+    "model": "TVS Ntorq 125",
+    "type": "scooter",
+    "year": 2023,
+    "price": 95000,
+    "stock": 80,
+    "dealer": {
+      "name": "TVS Dealer D",
+      "location": "Hyderabad"
+    }
+  },
+  {
+    "vehicle_id": 5,
+    "model": "TVS XL100",
+    "type": "moped",
+    "year": 2020,
+    "price": 50000,
+    "stock": 150,
+    "dealer": {
+      "name": "TVS Dealer E",
+      "location": "Delhi"
+    }
+  },
+  {
+    "vehicle_id": 6,
+    "model": "TVS Star City Plus",
+    "type": "motorcycle",
+    "year": 2021,
+    "price": 70000,
+    "stock": 120,
+    "dealer": {
+      "name": "TVS Dealer F",
+      "location": "Kolkata"
+    }
+  },
+  {
+    "vehicle_id": 7,
+    "model": "TVS Raider 125",
+    "type": "motorcycle",
+    "year": 2023,
+    "price": 90000,
+    "stock": 90,
+    "dealer": {
+      "name": "TVS Dealer G",
+      "location": "Pune"
+    }
+  },
+  {
+    "vehicle_id": 8,
+    "model": "TVS Zest 110",
+    "type": "scooter",
+    "year": 2022,
+    "price": 65000,
+    "stock": 85,
+    "dealer": {
+      "name": "TVS Dealer H",
+      "location": "Ahmedabad"
+    }
+  },
+  {
+    "vehicle_id": 9,
+    "model": "TVS Radeon",
+    "type": "motorcycle",
+    "year": 2020,
+    "price": 65000,
+    "stock": 200,
+    "dealer": {
+      "name": "TVS Dealer I",
+      "location": "Surat"
+    }
+  },
+  {
+    "vehicle_id": 10,
+    "model": "TVS iQube Electric",
+    "type": "electric scooter",
+    "year": 2023,
+    "price": 145000,
+    "stock": 60,
+    "dealer": {
+      "name": "TVS Dealer J",
+      "location": "Chennai"
+    }
+  },
+  {
+    "vehicle_id": 11,
+    "model": "TVS Scooty Pep Plus",
+    "type": "scooter",
+    "year": 2021,
+    "price": 60000,
+    "stock": 300,
+    "dealer": {
+      "name": "TVS Dealer A",
+      "location": "Chennai"
+    }
+  },
+  {
+    "vehicle_id": 12,
+    "model": "TVS Apache RR 310",
+    "type": "motorcycle",
+    "year": 2023,
+    "price": 240000,
+    "stock": 20,
+    "dealer": {
+      "name": "TVS Dealer B",
+      "location": "Bangalore"
+    }
+  },
+  {
+    "vehicle_id": 13,
+    "model": "TVS Sport",
+    "type": "motorcycle",
+    "year": 2020,
+    "price": 50000,
+    "stock": 180,
+    "dealer": {
+      "name": "TVS Dealer C",
+      "location": "Mumbai"
+    }
+  },
+  {
+    "vehicle_id": 14,
+    "model": "TVS Jupiter ZX",
+    "type": "scooter",
+    "year": 2022,
+    "price": 80000,
+    "stock": 70,
+    "dealer": {
+      "name": "TVS Dealer D",
+      "location": "Hyderabad"
+    }
+  },
+  {
+    "vehicle_id": 15,
+    "model": "TVS XL100 Comfort",
+    "type": "moped",
+    "year": 2019,
+    "price": 45000,
+    "stock": 400,
+    "dealer": {
+      "name": "TVS Dealer E",
+      "location": "Delhi"
+    }
+  },
+  {
+    "vehicle_id": 16,
+    "model": "TVS Apache RTR 180",
+    "type": "motorcycle",
+    "year": 2021,
+    "price": 120000,
+    "stock": 55,
+    "dealer": {
+      "name": "TVS Dealer F",
+      "location": "Kolkata"
+    }
+  },
+  {
+    "vehicle_id": 17,
+    "model": "TVS Apache RTR 160 4V",
+    "type": "motorcycle",
+    "year": 2023,
+    "price": 110000,
+    "stock": 95,
+    "dealer": {
+      "name": "TVS Dealer G",
+      "location": "Pune"
+    }
+  },
+  {
+    "vehicle_id": 18,
+    "model": "TVS Ntorq 125 Race XP",
+    "type": "scooter",
+    "year": 2023,
+    "price": 105000,
+    "stock": 65,
+    "dealer": {
+      "name": "TVS Dealer H",
+      "location": "Ahmedabad"
+    }
+  },
+  {
+    "vehicle_id": 19,
+    "model": "TVS Jupiter 125",
+    "type": "scooter",
+    "year": 2022,
+    "price": 90000,
+    "stock": 130,
+    "dealer": {
+      "name": "TVS Dealer I",
+      "location": "Surat"
+    }
+  },
+  {
+    "vehicle_id": 20,
+    "model": "TVS iQube S",
+    "type": "electric scooter",
+    "year": 2023,
+    "price": 160000,
+    "stock": 50,
+    "dealer": {
+      "name": "TVS Dealer J",
+      "location": "Chennai"
+    }
+  },
+  {
+    "vehicle_id": 21,
+    "model": "TVS Apache RTR 310",
+    "type": "motorcycle",
+    "year": 2024,
+    "price": 230000,
+    "stock": 45,
+    "dealer": {
+      "name": "TVS Dealer A",
+      "location": "Chennai"
+    }
+  },
+  {
+    "vehicle_id": 22,
+    "model": "TVS Zest 110 Matte",
+    "type": "scooter",
+    "year": 2021,
+    "price": 69000,
+    "stock": 120,
+    "dealer": {
+      "name": "TVS Dealer B",
+      "location": "Bangalore"
+    }
+  },
+  {
+    "vehicle_id": 23,
+    "model": "TVS Jupiter Classic",
+    "type": "scooter",
+    "year": 2023,
+    "price": 85000,
+    "stock": 75,
+    "dealer": {
+      "name": "TVS Dealer C",
+      "location": "Mumbai"
+    }
+  },
+  {
+    "vehicle_id": 24,
+    "model": "TVS XL Heavy Duty",
+    "type": "moped",
+    "year": 2018,
+    "price": 40000,
+    "stock": 250,
+    "dealer": {
+      "name": "TVS Dealer D",
+      "location": "Hyderabad"
+    }
+  },
+  {
+    "vehicle_id": 25,
+    "model": "TVS Sport ES",
+    "type": "motorcycle",
+    "year": 2020,
+    "price": 55000,
+    "stock": 160,
+    "dealer": {
+      "name": "TVS Dealer E",
+      "location": "Delhi"
+    }
+  },
+  {
+    "vehicle_id": 26,
+    "model": "TVS Apache RTR 200 4V",
+    "type": "motorcycle",
+    "year": 2023,
+    "price": 130000,
+    "stock": 30,
+    "dealer": {
+      "name": "TVS Dealer F",
+      "location": "Kolkata"
+    }
+  },
+  {
+    "vehicle_id": 27,
+    "model": "TVS Jupiter ZX Disc",
+    "type": "scooter",
+    "year": 2022,
+    "price": 80000,
+    "stock": 110,
+    "dealer": {
+      "name": "TVS Dealer G",
+      "location": "Pune"
+    }
+  },
+  {
+    "vehicle_id": 28,
+    "model": "TVS XL 100 Heavy Duty iTouch Start",
+    "type": "moped",
+    "year": 2021,
+    "price": 48000,
+    "stock": 200,
+    "dealer": {
+      "name": "TVS Dealer H",
+      "location": "Ahmedabad"
+    }
+  },
+  {
+    "vehicle_id": 29,
+    "model": "TVS iQube ST",
+    "type": "electric scooter",
+    "year": 2023,
+    "price": 165000,
+    "stock": 40,
+    "dealer": {
+      "name": "TVS Dealer I",
+      "location": "Surat"
+    }
+  },
+  {
+    "vehicle_id": 30,
+    "model": "TVS Apache RR 310 BTO",
+    "type": "motorcycle",
+    "year": 2024,
+    "price": 260000,
+    "stock": 20,
+    "dealer": {
+      "name": "TVS Dealer J",
+      "location": "Chennai"
+    }
+  }
+]

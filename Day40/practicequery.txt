@@ -1,0 +1,26 @@
+1.Find all the vehicle from collection.
+2.Find all vehicles with stock greater than 100.
+3.Find all motorcycles manufactured in 2023.
+4. Retrieve all scooters priced below 80,000.
+5. Find vehicles that are sold by 'TVS Dealer A'.
+6. Count how many electric scooters are available.
+7. Retrieve the vehicle models along with their prices, but exclude the stock information.
+8. Find all vehicles whose price is between 50,000 and 1,50,000.
+9. Retrieve all vehicles that are either scooters or mopeds.
+10. Sort vehicles by price in descending order.
+11. Retrieve the top 5 most expensive vehicles.
+12. Update the stock of 'TVS Apache RTR 160' to 70.
+13. Delete all vehicles manufactured in 2020.
+14. Retrieve vehicles sold by dealers located in Chennai.
+15. Find all vehicles where stock is less than 50 and year is 2023.
+16. Add a new field 'available_for_test_drive' to all vehicles with stock greater than 100, setting it to true.
+17. Retrieve all electric scooters and sort them by price in ascending order.
+18. Find the vehicle with the highest price.
+19. Retrieve all vehicles grouped by dealer location.
+20. Find all vehicles and exclude the 'dealer' field.
+21. Update the dealer location of 'TVS Dealer E' from Delhi to Gurgaon.
+22. Find all vehicles with a price greater than the average price of all vehicles.
+23. Find the total number of vehicles available for sale in each location.
+24. Remove all vehicles priced above 200,000.
+25. Find all vehicles manufactured in 2021 and calculate their total price.
+
