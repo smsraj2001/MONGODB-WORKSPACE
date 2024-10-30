@@ -70,4 +70,7 @@ MongoDB Commands and uses:
 
 mongoimport --db tvs --collection restaurants --file "/home/zadmin/Desktop/mongo-workspace/restaurants.json"
 
+mongoimport --db tvs --collection vehicles --file "vehicle.json" --jsonArray
+
+
 
